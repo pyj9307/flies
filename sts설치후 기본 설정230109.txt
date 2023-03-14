@@ -1,0 +1,49 @@
+주의사항, 가급적 압축 프로그램으로 풀기. 
+1. sts~~.jar 1차 압축 풀기.
+2. 폴더 안에 contents.zip 파일 풀기. 
+3. sts-4.15.1.RELEASE 폴더 안에 
+4. SpringToolSuite4.ini 우클릭, 편집. 노트패드 
+5. 
+SpringToolSuite4.ini 수정
+-vm 부분 수정.
+-vm
+C:\Program Files\Java\jdk-11.0.17\bin\javaw.exe
+6.
+-Xms256m -> -Xms1024m
+7.
+실행 파일 바로가기 만들어서, 바탕화면 이동. 
+8.
+워크스페이스 -> 본인 작업할 경로 폴더 만들기. 
+:Spring_Workspace230109
+
+9. jsp 관련 확장 팩.
+마켓 -> 검색어 : java and web
+기본 옵션. -> 수락 -> 마침. 
+
+10. UTF-8
+jsp 에서 했던 설정과 같음. 
+윈도우->설정-> 검색:encoding
+변경할 목록
+1)
+General 
+-> Content Types-> Java Class File
+UTF-8 : update 클릭. 
+(Java Properties File,
+JSP 변경이 안되어서 
+수동으로 변경. )
+->Workspace
+2)
+Web
+->css Files
+->HTML Files
+->JSP Files 
+3)
+XML 
+->XML Files
+
+UTF-8 로 다 변경 후 적용. 
+
+
+
+
+
